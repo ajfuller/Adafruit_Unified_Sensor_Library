@@ -17,7 +17,7 @@
 
 #include <limits.h>
 
-#include "Adafruit_L3GD20_U.h"
+#include "Adafruit_L3GD20.h"
 
 /***************************************************************************
  PRIVATE FUNCTIONS
