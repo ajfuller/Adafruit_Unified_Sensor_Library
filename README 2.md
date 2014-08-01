@@ -1,10 +1,17 @@
-#Adafruit Unified BMP085/BMP180 Driver (Barometric Pressure Sensor) #
+## Adafruit Unified L3GD20 Driver ##
 
-This driver is for the Adafruit BMP085 Breakout (http://www.adafruit.com/products/391) or BMP180 breakout (http://www.adafruit.com/products/1603), and is based on Adafruit's Unified Sensor Library (Adafruit_Sensor).
+This unified sensor driver is for use with the Adafruit Triple-Axis Gyro sensor and the Adafruit 10DOF Breakout, and has been designed specifically for these boards:
 
-## About the BMP085 / BMP180 ##
+  ----> https://www.adafruit.com/products/1032
+  ----> http://www.adafruit.com/products/1604
 
-This precision sensor from Bosch is the best low-cost sensing solution for measuring barometric pressure and temperature. Because pressure changes with altitude you can also use it as an altimeter! 
+Check out the links above for our tutorials and wiring diagrams 
+
+The updated 'Unified' sensor driver (based on Adafruit's Sensor API) use I2C to communicate.  If you need to use SPI on the L3GD20, please look at the original (non unified) driver that is still available here: https://github.com/adafruit/Adafruit_L3GD20
+
+Adafruit invests time and resources providing this open source code, 
+please support Adafruit and open-source hardware by purchasing 
+products from Adafruit!
 
 ## What is the Adafruit Unified Sensor Library? ##
 
@@ -22,6 +29,9 @@ Light sensors will always report units in lux, gyroscopes will always report uni
 
 ## About this Driver ##
 
-Adafruit invests time and resources providing this open source code.  Please support Adafruit and open-source hardware by purchasing products from Adafruit!
+Written by Kevin Townsend for Adafruit Industries.  
+BSD license, all text above must be included in any redistribution
 
-Written by Kevin (KTOWN) Townsend for Adafruit Industries.
+To download. click the **Download ZIP** in the right-hand column, rename the uncompressed folder Adafruit\_L3GD20\_U. Check that the Adafruit\_L3GD20\_U folder contains Adafruit\_L3GD20\U.cpp and Adafruit\_L3GD20\_U.h
+
+Place the Adafruit\_L3GD20\_U library folder your (arduinosketchfolder)/libraries/ folder. You may need to create the libraries subfolder if its your first library. Restart the IDE.
