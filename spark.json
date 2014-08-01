@@ -1,7 +1,7 @@
 {
-  "name": "Adafruit_L3GD20",
+  "name": "Adafruit_L3GD20_Target",
   "author": "kennethlimcp / Adafruit",
   "license": "Adafruit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Adafruit_L3GD20 for Spark"
 }
